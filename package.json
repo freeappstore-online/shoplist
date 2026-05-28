@@ -1,0 +1,12 @@
+{
+  "name": "shoplist",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "pnpm --filter @shoplist/web dev",
+    "build": "pnpm --filter @shoplist/web build",
+    "preview": "pnpm --filter @shoplist/web preview",
+    "typecheck": "pnpm --filter @shoplist/web exec tsc -b",
+    "test": "pnpm --filter @shoplist/web test"
+  }
+}
