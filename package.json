@@ -8,5 +8,8 @@
     "preview": "pnpm --filter @shoplist/web preview",
     "typecheck": "pnpm --filter @shoplist/web exec tsc -b",
     "test": "pnpm --filter @shoplist/web test"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^4.7.0"
   }
 }
