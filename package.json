@@ -2,6 +2,7 @@
   "name": "shoplist",
   "version": "0.0.0",
   "private": true,
+  "packageManager": "pnpm@9.15.9",
   "scripts": {
     "dev": "pnpm --filter @shoplist/web dev",
     "build": "pnpm --filter @shoplist/web build",
